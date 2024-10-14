@@ -1,10 +1,12 @@
 import React from 'react';
-import { StyleSheet, Text , View } from 'react-native';
+import { StyleSheet, View }
+import Title from './src/components/Title/'
+from 'react-native';
 
 export default function App() {
     return(
         <View style={style.container}>
-         <Text>Open up App.js to start working on your app !n</Text>
+         <Text>teste de texto</Text>
         </View>
     );
 }
